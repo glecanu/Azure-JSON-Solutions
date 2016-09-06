@@ -1,6 +1,6 @@
 {
   "version": "0.1",
-  "createdAt": "2016-09-06T15:20:10.493Z",
+  "createdAt": "2016-09-06T20:06:16.418Z",
   "data": [
     {
       "key": "calculator.servicesv3",
@@ -20,7 +20,7 @@
             "externalChecks": "T6Z-00014"
           },
           "description": "2 million(s)/mo queries, 4 Azure endpoints, 0 external endpoints",
-          "name": "Traffic Manager (DELETE IF NOT NEEDED)",
+          "name": "Traffic Manager",
           "total": 2.52,
           "serviceSlug": "traffic-manager"
         },
@@ -39,7 +39,7 @@
           "serviceSlug": "data-transfers"
         },
         {
-          "region": "us-east-2",
+          "region": "us-east",
           "tier": "standard",
           "gatewayHours": "744",
           "vpnType": "vpn",
@@ -110,7 +110,7 @@
           },
           "description": "127 GB storage Page Blob and Disk type. Basic tier, LRS redundancy, 1 x100,000 transactions",
           "name": "Bastion OS Disk (1 x 127GB, LRS)",
-          "total": 3.0516,
+          "total": 6.3536,
           "serviceSlug": "storage"
         },
         {
@@ -129,6 +129,24 @@
         {
           "region": "us-east-2",
           "instances": "2",
+          "backup": "500",
+          "backupUnits": "1",
+          "redundancy": "lrs",
+          "slug": "backup",
+          "price": 44,
+          "displaySku": false,
+          "sku": {
+            "backup": "N9H-00430",
+            "storage": "N9H-00074"
+          },
+          "description": "2 instance(s), 500 GB, 1000 GB lrs of storage",
+          "name": "Backup",
+          "total": 76,
+          "serviceSlug": "backup"
+        },
+        {
+          "region": "us-east-2",
+          "instances": "2",
           "backup": "50",
           "backupUnits": "1",
           "redundancy": "lrs",
@@ -141,25 +159,7 @@
           },
           "description": "2 instance(s), 50 GB, 100 GB lrs of storage",
           "name": "Backup",
-          "total": 12.4,
-          "serviceSlug": "backup"
-        },
-        {
-          "region": "us-east-2",
-          "instances": "2",
-          "backup": "250",
-          "backupUnits": "1",
-          "redundancy": "lrs",
-          "slug": "backup",
-          "price": 32,
-          "displaySku": false,
-          "sku": {
-            "backup": "N9H-00430",
-            "storage": "N9H-00074"
-          },
-          "description": "2 instance(s), 250 GB, 500 GB lrs of storage",
-          "name": "Backup",
-          "total": 32,
+          "total": 23.6,
           "serviceSlug": "backup"
         }
       ]
