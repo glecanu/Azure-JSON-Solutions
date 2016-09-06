@@ -79,7 +79,7 @@
           "serviceSlug": "virtual-machines"
         },
         {
-          "region": "us-west",
+          "region": "us-east-2",
           "type": "block",
           "tier": "basic",
           "redundancy": "lrs",
@@ -127,7 +127,7 @@
           "serviceSlug": "log-analytics"
         },
         {
-          "region": "us-east",
+          "region": "us-east-2",
           "instances": "2",
           "backup": "50",
           "backupUnits": "1",
@@ -145,7 +145,7 @@
           "serviceSlug": "backup"
         },
         {
-          "region": "us-east",
+          "region": "us-east-2",
           "instances": "2",
           "backup": "250",
           "backupUnits": "1",
