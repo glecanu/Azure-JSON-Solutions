@@ -20,7 +20,7 @@
             "externalChecks": "T6Z-00014"
           },
           "description": "2 million(s)/mo queries, 4 Azure endpoints, 0 external endpoints",
-          "name": "Traffic Manager",
+          "name": "Traffic Manager (DELETE IF NOT NEEDED)",
           "total": 2.52,
           "serviceSlug": "traffic-manager"
         },
