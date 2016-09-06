@@ -1,6 +1,6 @@
 {
   "version": "0.1",
-  "createdAt": "2016-09-02T20:07:56.419Z",
+  "createdAt": "2016-09-06T15:20:10.493Z",
   "data": [
     {
       "key": "calculator.servicesv3",
@@ -20,7 +20,7 @@
             "externalChecks": "T6Z-00014"
           },
           "description": "2 million(s)/mo queries, 4 Azure endpoints, 0 external endpoints",
-          "name": "Traffic Manager (DELETE IF NOT NEEDED)",
+          "name": "Traffic Manager",
           "total": 2.52,
           "serviceSlug": "traffic-manager"
         },
@@ -80,7 +80,7 @@
         },
         {
           "region": "us-east-2",
-          "type": "block",
+          "type": "page",
           "tier": "basic",
           "redundancy": "lrs",
           "count": "127",
@@ -102,13 +102,13 @@
           "filesWrite": "1",
           "filesList": "1",
           "slug": "storage",
-          "price": 3.0516,
+          "price": 6.3536,
           "displaySku": false,
           "sku": {
-            "storage": "N9H-00074",
+            "storage": "N9H-00090",
             "transaction": "N9H-00803"
           },
-          "description": "127 GB storage Block blob type. Basic tier, LRS redundancy, 1 x100,000 transactions",
+          "description": "127 GB storage Page Blob and Disk type. Basic tier, LRS redundancy, 1 x100,000 transactions",
           "name": "Bastion OS Disk (1 x 127GB, LRS)",
           "total": 3.0516,
           "serviceSlug": "storage"
