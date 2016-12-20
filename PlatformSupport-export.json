@@ -113,20 +113,7 @@
           "total": 6.3536,
           "serviceSlug": "storage"
         },
-        {
-          "region": "us-east",
-          "tier": "standard",
-          "gbs": "10",
-          "slug": "log-analytics",
-          "price": 23,
-          "displaySku": false,
-          "sku": "3Q7-00096",
-          "description": "10 GB(s), standard tier",
-          "name": "Rackspace Monitoring (Log Analytics + OMS)",
-          "total": 23,
-          "serviceSlug": "log-analytics"
-        },
-        {
+       {
           "region": "us-east-2",
           "instances": "2",
           "backup": "500",
